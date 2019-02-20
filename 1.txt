@@ -1,0 +1,4 @@
+git clone https://github.com/saikatpo/devops-intro-project devops
+git clone https://github.com/saikatpo/devops-intro-project.git
+packer build -only=virtualbox-iso D:\DevOps\Project\devops\packer-templates\application-server.json
+packer build -only=virtualbox-iso application-server.json
